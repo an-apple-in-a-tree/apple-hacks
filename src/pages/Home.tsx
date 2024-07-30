@@ -1,4 +1,5 @@
 import banner from '../assets/Banner.png';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -25,9 +26,11 @@ function Home() {
             <div data-aos="zoom-in" data-aos-duration="1000"
                  className="w-screen flex flex-col mb-24">
                 <img src={banner} className="mt-12 md:mt-24"/>
-                <a href="/about" className="flex flex-row justify-around">
-                    <button className="hover:bg-red-400 bg-red-500 text-white px-4 md:px-8 py-2 md:py-4 text-xl md:text-3xl border-white border-4">Find out More</button>
-                </a>
+                <Link to="/about" className="flex flex-row justify-around">
+                    <button className="hover:bg-red-400 bg-red-500 text-white px-4 md:px-8 py-2 md:py-4 text-xl md:text-3xl border-white border-4">
+                        Find out More
+                    </button>
+                </Link>
             </div>
         </div>
     );
