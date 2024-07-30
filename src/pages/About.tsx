@@ -14,7 +14,7 @@ export default function About() {
     }, []);
 
     return (
-        <div className="text-white p-4 md:p-8 w-full md:w-2/3 mx-4 md:mx-32 justify-around mt-12 md:mt-28">
+        <div className="text-white p-4 md:p-8 w-full md:w-2/3 mx-4 md:mx-32 justify-around mt-24 md:mt-28">
             <h1 className="text-3xl md:text-5xl mb-6 md:mb-12 font-bold">🍏 About Apple Hacks 🍎</h1>
             <p data-aos="fade-up" className = "pb-8">This is the first iteration of Coding Campuses own annual hackathon! This year,
                 we decided to partner with education institutions to run an ideathon.</p>

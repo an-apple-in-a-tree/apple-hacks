@@ -19,7 +19,7 @@ export default function FAQ() {
 
     return (
         <div className="text-white p-4 md:p-8 w-full md:w-2/3 mx-4 md:mx-32 justify-around mt-12 md:mt-28">
-            <h1 data-aos="zoom-in" data-aos-duration="1000" className="mt-8 text-4xl md:text-6xl mb-6 md:mb-12 font-bold">Frequently Asked Questions</h1>
+            <h1 className="mt-16 text-4xl md:text-6xl mb-6 md:mb-12 font-bold">Frequently Asked Questions</h1>
             <Accordion type="single">
                 <AccordionItem value="item-1"  className = "py-4">
                     <AccordionTrigger className="text-2xl md:text-3xl">What is an ideathon?</AccordionTrigger>
