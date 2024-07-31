@@ -3,7 +3,7 @@ import logo from '../../public/symbol_clear.png';
 
 export default function Navbar() {
     return (
-        <nav className="text-white flex flex-row justify-between items-center py-4 px-8 fixed top-0 left-0 w-full shadow-lg z-50 border-b-2 border-white">
+        <nav className="bg-black text-white flex flex-row justify-between items-center py-4 px-8 fixed top-0 left-0 w-full shadow-lg z-50 border-b-2 border-white">
             <div className="flex items-center">
                 <img src={logo} alt="Apple Hacks Logo" className="h-12 mr-4"/>
                 <Link to="/" className="text-2xl font-bold">Apple Hacks</Link>
