@@ -23,7 +23,7 @@ export default function About() {
                 <h2 className="text-2xl md:text-3xl mb-2 md:mb-4 font-semibold">Event Details 📅</h2>
                 <p className="text-lg md:text-xl">
                     Join us for an exciting 24-hour ideathon where students can learn how to code while building a project.
-                    This event will be held on August 25th and is open to all students who are eager to innovate, learn,
+                    This event will be held on September 6th and is open to all students who are eager to innovate, learn,
                     collaborate, and create.
                 </p>
             </section>
