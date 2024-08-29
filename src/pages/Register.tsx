@@ -22,7 +22,7 @@ export default function Register() {
                     <h1 className="text-4xl md:text-6xl mb-6 md:mb-12 font-bold">Register</h1>
                     <p className="text-lg md:text-xl mb-8">
                         Join us for an exciting 24-hour ideathon where students can learn how to code while building a
-                        project. This event will be held on August 25th and is open to all students who are eager to innovate, learn,
+                        project. This event will be held on September 6th and is open to all students who are eager to innovate, learn,
                         collaborate, and create.
                     </p>
                     <button
